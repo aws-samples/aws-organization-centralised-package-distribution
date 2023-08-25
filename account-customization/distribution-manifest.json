@@ -1,0 +1,27 @@
+{
+    "schemaVersion": "2.0",
+    "version": "${package_version}",
+    "packages": {
+        "windows": {
+            "_any": {
+                "x86_64": {
+                    "file": "${package_name}"
+                }
+            }
+        },
+        "amazon": {
+            "_any": {
+                "x86_64": {
+                    "file": "${package_name}"
+                }
+            }
+        }
+    },
+    "files": {
+        "${package_name}": {
+            "checksums": {
+                "sha256": "${calculated_sha}"
+            }
+        }
+    }
+}

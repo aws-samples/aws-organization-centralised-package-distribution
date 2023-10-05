@@ -24,7 +24,6 @@ Account Factory for Terraform (Optional)
 
 This terraform code will deploy below architeture
 
-![Screenshot_2023-09-28_at_4.31.33_PM](/uploads/ac0ac93b83281844c98256adfaa0bcdc/Screenshot_2023-09-28_at_4.31.33_PM.png)
 
 
 **Deployment**

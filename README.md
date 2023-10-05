@@ -50,9 +50,6 @@ after deploying automation documnets and package create AWS Association
  
 - This solution uses the management account within AWS Organizations, but you can also designate an account (delegated administrator) to manage this on behalf of the organization by Register a delegated administrator.
 
-**Contributing**
-
-See CONTRIBUTING for more information.
 
 **Security**
 

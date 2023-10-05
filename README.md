@@ -53,7 +53,7 @@ after deploying automation documnets and package create AWS Association
 
 **Security**
 
-See [SECURITY](./SECURITY) for more information.
+See [SECURITY](./SECURITY.md) for more information.
 
 **License**
 

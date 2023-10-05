@@ -53,7 +53,7 @@ after deploying automation documnets and package create AWS Association
 
 **Security**
 
-See [SECURITY]([centralized-distribution-managment-in-an-aws-organization/-/blob/main/SECURITY.md]) for more information.
+See [SECURITY](./SECURITY) for more information.
 
 **License**
 

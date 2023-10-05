@@ -1,20 +1,61 @@
-## My Project
+**Overview**
+
+**Centralized-distribution-managment in an AWS Organization**
+
+This Solution will demonstrate how you can build a solution using Terraform for organizations with a large number of instances. You can use this solution to simplify the process of managing the installation of software and execute any specific scripts on the instances across all of your member accounts within an AWS Organization with minimal effort.
+
+This solution works for Amazon/Linux/window instances managed by AWS System manager. This solution can be used by administration team for installing security scanning softwares like CrowdStrike, SentinelOne & Monitoring Tool CloudWatch agent , Datadog agent, AppDynamics agent.
+
+**Prerequisites**
+
+The following prerequisites need to be completed to deploy this solution.
+
+A Distributor package  with the software to be installed
+
+Terraform v1.4.6+ Configuration. 
+
+SSM managed EC2 Instances with basic permission to S3 in target account
+
+AWS Control Tower Landing Zone Setup
+
+Account Factory for Terraform (Optional) 
+
+**Architecture**
+
+This terraform code will deploy below architeture
+
+![Screenshot_2023-09-28_at_4.31.33_PM](/uploads/ac0ac93b83281844c98256adfaa0bcdc/Screenshot_2023-09-28_at_4.31.33_PM.png)
 
 
+**Deployment**
+
+This Terraform script deploys the following resources:
+
+- IAM Role & IAM policies
+- This Terraform script deploys the following resources:
+after deploying automation documnets and package create AWS Association 
+- To shedule Association add crone in the association.tf
 
 
-TODO: Fill this README out!
+**Solution Workflow**
 
-Be sure to:
+- As per above solution architecture diagram , the solution workflow explained below (each step below corresponds to step in architecture diagram)
+- As per above solution architecture diagram, the solution workflow explained below (each step below corresponds to step in architecture diagram)
 
-* Change the title in this README
-* Edit your repository description on GitHub
+- By running the solution from a centralized account, we will upload our packages or software along with deployment steps to AWS S3, 
 
-## Security
+- To shedule Association add crone in the association.tf
+ 
+- This solution uses the management account within AWS Organizations, but you can also designate an account (delegated administrator) to manage this on behalf of the organization by Register a delegated administrator.
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+**Contributing**
 
-## License
+See CONTRIBUTING for more information.
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
+**Security**
 
+See [SECURITY]([centralized-distribution-managment-in-an-aws-organization/-/blob/main/SECURITY.md]) for more information.
+
+**License**
+
+This library is licensed under the MIT-0 License. See the [LICENSE](centralized-distribution-managment-in-an-aws-organization/-/blob/main/LICENSE) file.

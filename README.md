@@ -57,4 +57,5 @@ See [SECURITY]([centralized-distribution-managment-in-an-aws-organization/-/blob
 
 **License**
 
-This library is licensed under the MIT-0 License. See the [LICENSE](https://github.com/aws-samples/aws-organization-centralised-package-distribution/blob/main/LICENSE) file.
+This library is licensed under the MIT-0 License. See the Licence ![image](https://github.com/aws-samples/aws-organization-centralised-package-distribution/assets/65273458/fe16f4a2-15f2-405e-b382-dce9f7020d7c)
+ file.

@@ -24,8 +24,11 @@ Account Factory for Terraform (Optional)
 
 This terraform code will deploy below architeture
 
-images/Architecture%20diagram.png
-[Architecture](/images/Architecture diagram.png)
+
+
+[Architecture](./images
+/Architecture diagram.png)
+
 
 
 

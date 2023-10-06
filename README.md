@@ -2,9 +2,11 @@
 
 **Centralized-distribution-managment in an AWS Organization**
 
-This Solution will demonstrate how you can build a solution using Terraform for organizations with a large number of instances. You can use this solution to simplify the process of managing the installation of software and execute any specific scripts on the instances across all of your member accounts within an AWS Organization with minimal effort.
+  This Solution will demonstrate how you can build a solution using Terraform for organizations with a large number of instances. You can use this solution to simplify the process of managing the installation of software and 
+  execute any specific scripts on the instances across all of your member accounts within an AWS Organization with minimal effort.
 
-This solution works for Amazon/Linux/window instances managed by AWS System manager. This solution can be used by administration team for installing security scanning softwares like CrowdStrike, SentinelOne & Monitoring Tool CloudWatch agent , Datadog agent, AppDynamics agent.
+  This solution works for Amazon/Linux/window instances managed by AWS System manager. This solution can be used by administration team for installing security scanning softwares like CrowdStrike, SentinelOne & Monitoring 
+  Tool CloudWatch agent , Datadog agent, AppDynamics agent.
 
 **Prerequisites**
 

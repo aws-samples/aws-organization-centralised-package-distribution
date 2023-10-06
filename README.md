@@ -24,10 +24,10 @@ Account Factory for Terraform (Optional)
 
 This terraform code will deploy below architeture
 
+<img width="1199" alt="Architecture diagram" src="https://github.com/aws-samples/aws-organization-centralised-package-distribution/assets/65273458/028e2917-a9d2-47f8-9a99-91f7129196a7">
 
 
-[Architecture](./images
-/Architecture diagram.png)
+
 
 
 

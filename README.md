@@ -1,4 +1,7 @@
 **Overview**
+Many enterprise customers often maintain multiple AWS accounts spread across multiple regions in order to create a strong isolation barrier between workloads. In order to stay secure and compliant customers need to install agent based tools like CloudWatch Agent,CrowdStrike, SentinelOne, TrendMicro etc and often face challenges to centrally automate software package management and distribution across this large landscape.
+
+AWS Systems Manager Distributor automates the process of packaging and publishing software to managed Windows and Linux instances across the cloud landscape, as well as to on-premises servers, via a single simplified interface .
 
 
 **Centralized-distribution-managment in an AWS Organization**

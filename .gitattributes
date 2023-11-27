@@ -1,0 +1,2 @@
+powershell-7.3.5-1.rh.x86_64.rpm filter=lfs diff=lfs merge=lfs -text
+PowerShell-7.3.5-win-x64.msi filter=lfs diff=lfs merge=lfs -text

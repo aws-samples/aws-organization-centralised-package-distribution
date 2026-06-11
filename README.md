@@ -120,3 +120,8 @@ See [SECURITY](./SECURITY.md) for more information.
 
 This library is licensed under the MIT-0 License. See the Licence [LICENCE](./LICENSE)
  file.
+
+## Author
+  Pradip Pandey
+
+Lead Consultant - Amazon Web Services
